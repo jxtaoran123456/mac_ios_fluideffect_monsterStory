@@ -182,7 +182,7 @@ typedef void (*GLLogFunction) (GLuint program,
 		else
 			CCLOG(@"cocos2d: %@", [self fragmentShaderLog] );
 		
-		abort();
+		//abort();
 	}
     return ( status == GL_TRUE );
 }
